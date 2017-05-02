@@ -1,0 +1,56 @@
+Q- When To Use Python Lists And When To Use Tuples, Dictionaries Or Sets
+
+1.  Lists and Tuples:
+
+Lists:
+
+It is mutable/changeable
+You can add elements in lists
+You can remove  elements from  lists
+
+Tuples:
+It is immutable/ unchangeable
+You can't add elements in tuple. There is no append() and extend() methods in tuple
+You can't remove  elements from tuple. There is no remove() or pop() method in tuple
+You can find elements in a tuple since this doesn’t change the tuple.
+You can also use the in operator to check if an element exists in the tuple
+It is faster than list due to immutability
+It is safer than list. ( no need to change the tuple)
+It is write-protect than list because it will not append or remove the elements from tuple
+
+
+Usage of Tuple:
+
+If you’re defining a constant set of values and all you’re going to do with it is iterate through it, use a tuple instead of a list.
+
+2. Lists and Dictionaries:
+
+List:
+A list stores an ordered collection of items, so it keeps some order.
+Lists just contain values.
+
+Dictionaries:
+ Dictionaries don’t have any order.
+Dictionaries are known to associate each key with a value.
+The performance will be better than lists in cases where you’re checking membership of an element.
+
+Usage of dictionaries:
+Use a dictionary when you have an unordered set of unique keys that map to values.
+
+3. Lists and Sets:
+
+Lists:
+A list stores an ordered collection of items, so it keeps some order.
+lists allow for duplicates and are mutable.
+lists store non-hashable(tuples,lists and dictionaries) items.
+
+Sets:
+sets have no order in their collection of items.
+Set requires the items contained in it to be hashable(float,integer,tuples and strings).
+Sets require your items to be unique and immutable. Duplicates are not allowed in sets.
+
+Usage of Sets:
+You should make use of sets when you have an unordered set of unique, immutable values that are hashable.
+
+
+
