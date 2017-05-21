@@ -8,3 +8,4 @@ key_min = min(my_dict.keys())
 
 print ('maximum value :',my_dict[key_max])
 print ('minimum value: ',my_dict[key_min])
+exit
